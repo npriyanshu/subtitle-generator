@@ -75,18 +75,23 @@ python main.py path/to/your/file.mp4
 | `--n`     | Number of words per subtitle (only for `nwords` mode)           | `5`        |
 | `--lang`  | Language code (e.g., `en`, `hi`, `ur`, `mr`)                    | `en`       |
 
-### Examples
-
-1. **Default (sentence-based, English)**
+### How to Use Your Script (with Examples)
 
 ```bash
-python main.py sample_video.mp4
-```
+# Basic usage, sentence breaks, English (default)
+python main.py myvideo.mp4
 
-2. **Break subtitles every 3 words in Hindi**
+# Break subtitles every 3 words, Hindi language
+python main.py myaudio.wav --break nwords --n 3 --lang hi
 
-```bash
-python main.py sample_audio.mp3 --break nwords --n 3 --lang hi
+# One subtitle per word, Urdu language
+python main.py myaudio.wav --break word --lang ur
+
+# Add minimum duration 1.0 seconds and padding 0.5 seconds
+python main.py myvideo.mp4 --min-duration 1.0 --padding 0.5
+
+# Combine options: Marathi language, 7 words per subtitle, with padding
+python main.py movie.mkv --lang mr --break nwords --n 7 --padding 0.3
 ```
 
 ---
