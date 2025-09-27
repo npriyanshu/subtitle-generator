@@ -1,6 +1,3 @@
-Sure! Here's a professional and clear **README** for your CLI subtitle generator:
-
-````markdown
 # 🎬 Subtitle Generator CLI
 
 A simple Python CLI tool to generate subtitles for audio or video files using Whisper. It supports multiple languages, flexible subtitle break modes, and exports both `.srt` and Adobe Premiere `.xml` files.
@@ -121,11 +118,4 @@ MIT License. Feel free to use, modify, and distribute.
 
 For issues or suggestions, open an issue in this repository or contact **Your Name** at [your email].
 
-```
-
----
-
-If you want, I can also **make a shorter, beginner-friendly version** that’s perfect for GitHub and easy for someone to just copy-paste commands to try it immediately.  
-
-Do you want me to make that too?
 ```
