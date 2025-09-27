@@ -108,14 +108,3 @@ python main.py sample_audio.mp3 --break nwords --n 3 --lang hi
 
 ---
 
-## License
-
-MIT License. Feel free to use, modify, and distribute.
-
----
-
-## Contact
-
-For issues or suggestions, open an issue in this repository or contact **Your Name** at [your email].
-
-```
